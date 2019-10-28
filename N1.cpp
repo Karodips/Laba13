@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "Russian");
-	int i, n, k;
+	int i, n;
 	cin >> n;
 	int* arr = new int[n];
 	arr[0] = 1;
