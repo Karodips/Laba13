@@ -11,7 +11,7 @@ int main() {
 	int* arr = new int[n];
 	if (n > 1) {
 	for (i = 0; i < n; i++) {
-		arr[i] = a * pow(d,i+1);
+		arr[i] = a * pow(d,i);
 	}
 	for (i = 0; i < n; i++) cout << arr[i] << " ";
 	cout << endl;
